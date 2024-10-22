@@ -1,0 +1,96 @@
+0 verbose cli /opt/homebrew/Cellar/node/22.9.0_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.9.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/prajaktakumbhar/expense-tracker/.npmrc
+5 silly config load:file:/Users/prajaktakumbhar/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install chart.js react-chartjs-2
+8 verbose argv "install" "chart.js" "react-chartjs-2"
+9 verbose logfile logs-max:10 dir:/Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-21T17_54_59_266Z-
+10 verbose logfile /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-21T17_54_59_266Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest chart.js@*
+15 silly packumentCache full:https://registry.npmjs.org/chart.js cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/chart.js 423ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/chart.js set size:undefined disposed:false
+18 silly fetch manifest react-chartjs-2@*
+19 silly packumentCache full:https://registry.npmjs.org/react-chartjs-2 cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react-chartjs-2 88ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/react-chartjs-2 set size:undefined disposed:false
+22 silly fetch manifest react@^16.8.0 || ^17.0.0 || ^18.0.0
+23 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react 208ms (cache updated)
+25 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+26 silly placeDep ROOT chart.js@4.4.5 OK for:  want: *
+27 silly placeDep ROOT react-chartjs-2@5.2.0 OK for:  want: *
+28 silly placeDep ROOT react@18.3.1 OK for: react-chartjs-2@5.2.0 want: ^16.8.0 || ^17.0.0 || ^18.0.0
+29 silly fetch manifest @kurkle/color@^0.3.0
+30 silly packumentCache full:https://registry.npmjs.org/@kurkle%2fcolor cache-miss
+31 silly fetch manifest loose-envify@^1.1.0
+32 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/loose-envify 193ms (cache revalidated)
+34 silly packumentCache full:https://registry.npmjs.org/loose-envify set size:12559 disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/@kurkle%2fcolor 225ms (cache miss)
+36 silly packumentCache full:https://registry.npmjs.org/@kurkle%2fcolor set size:undefined disposed:false
+37 silly placeDep ROOT @kurkle/color@0.3.2 OK for: chart.js@4.4.5 want: ^0.3.0
+38 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.3.1 want: ^1.1.0
+39 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+40 silly packumentCache full:https://registry.npmjs.org/js-tokens cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/js-tokens 95ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmjs.org/js-tokens set size:39096 disposed:false
+43 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+44 silly reify moves {}
+45 silly audit bulk request {
+45 silly audit   'append-field': [ '1.0.0' ],
+45 silly audit   'buffer-from': [ '1.1.2' ],
+45 silly audit   busboy: [ '1.6.0' ],
+45 silly audit   'concat-stream': [ '1.6.2' ],
+45 silly audit   'core-util-is': [ '1.0.3' ],
+45 silly audit   inherits: [ '2.0.4' ],
+45 silly audit   isarray: [ '1.0.0' ],
+45 silly audit   'media-typer': [ '0.3.0' ],
+45 silly audit   'mime-db': [ '1.52.0' ],
+45 silly audit   'mime-types': [ '2.1.35' ],
+45 silly audit   minimist: [ '1.2.8' ],
+45 silly audit   mkdirp: [ '0.5.6' ],
+45 silly audit   multer: [ '1.4.5-lts.1' ],
+45 silly audit   'object-assign': [ '4.1.1' ],
+45 silly audit   'process-nextick-args': [ '2.0.1' ],
+45 silly audit   'readable-stream': [ '2.3.8' ],
+45 silly audit   'safe-buffer': [ '5.1.2' ],
+45 silly audit   streamsearch: [ '1.1.0' ],
+45 silly audit   string_decoder: [ '1.1.1' ],
+45 silly audit   'type-is': [ '1.6.18' ],
+45 silly audit   typedarray: [ '0.0.6' ],
+45 silly audit   'util-deprecate': [ '1.0.2' ],
+45 silly audit   xtend: [ '4.0.2' ],
+45 silly audit   'chart.js': [ '4.4.5' ],
+45 silly audit   'react-chartjs-2': [ '5.2.0' ],
+45 silly audit   react: [ '18.3.1' ],
+45 silly audit   '@kurkle/color': [ '0.3.2' ],
+45 silly audit   'loose-envify': [ '1.4.0' ],
+45 silly audit   'js-tokens': [ '4.0.0' ]
+45 silly audit }
+46 silly tarball no local data for react-chartjs-2@https://registry.npmjs.org/react-chartjs-2/-/react-chartjs-2-5.2.0.tgz. Extracting by manifest.
+47 silly tarball no local data for @kurkle/color@https://registry.npmjs.org/@kurkle/color/-/color-0.3.2.tgz. Extracting by manifest.
+48 silly tarball no local data for chart.js@https://registry.npmjs.org/chart.js/-/chart.js-4.4.5.tgz. Extracting by manifest.
+49 http fetch GET 200 https://registry.npmjs.org/react-chartjs-2/-/react-chartjs-2-5.2.0.tgz 59ms (cache miss)
+50 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 106ms
+51 silly audit report {}
+52 http fetch GET 200 https://registry.npmjs.org/@kurkle/color/-/color-0.3.2.tgz 149ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/chart.js/-/chart.js-4.4.5.tgz 236ms (cache miss)
+54 silly ADD node_modules/js-tokens
+55 silly ADD node_modules/loose-envify
+56 silly ADD node_modules/@kurkle/color
+57 silly ADD node_modules/react
+58 silly ADD node_modules/react-chartjs-2
+59 silly ADD node_modules/chart.js
+60 verbose cwd /Users/prajaktakumbhar/expense-tracker
+61 verbose os Darwin 23.6.0
+62 verbose node v22.9.0
+63 verbose npm  v10.8.3
+64 verbose exit 0
+65 info ok
