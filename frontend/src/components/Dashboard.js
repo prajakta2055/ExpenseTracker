@@ -1,8 +1,8 @@
+// src/components/Dashboard.js
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import ExpenseChart from './ExpenseChart';
-
 
 function Dashboard() {
   const [expenses, setExpenses] = useState([]);
@@ -11,16 +11,17 @@ function Dashboard() {
   useEffect(() => {
     const fetchExpenses = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/expense'); // No token needed
+        const response = await axios.get('http://localhost:5000/expense'); // Fetch expenses from API
         setExpenses(response.data);
       } catch (err) {
         console.error(err);
-        navigate('/');
+        // Optionally handle navigation if there's an error
+        // navigate('/');
       }
     };
 
     fetchExpenses();
-  }, [navigate]);
+  }, []);
 
   const handleAddExpense = () => {
     navigate('/expense/add');
@@ -31,6 +32,9 @@ function Dashboard() {
     navigate('/login'); // Redirect to login page
   };
 
+  // Calculate total expenses
+  const totalExpenses = expenses.reduce((sum, expense) => sum + expense.amount, 0);
+
   return (
     <div style={{ padding: '20px' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -38,6 +42,10 @@ function Dashboard() {
         <button onClick={handleLogout} style={{ marginLeft: '10px' }}>Logout</button>
       </div>
       <button onClick={handleAddExpense} style={{ marginBottom: '20px' }}>Add Expense</button>
+      
+      {/* Display total expenses */}
+      <h3>Total Expenses: ${totalExpenses.toFixed(2)}</h3>
+
       <table style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr>
@@ -54,6 +62,10 @@ function Dashboard() {
           ))}
         </tbody>
       </table>
+      <div style={{ marginTop: '40px' }}>
+        <h3>Expense Distribution</h3>
+        <ExpenseChart expenses={expenses} />
+      </div>
     </div>
   );
 }

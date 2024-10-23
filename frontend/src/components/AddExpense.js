@@ -9,6 +9,17 @@ function AddExpense() {
   const [error, setError] = useState('');
   const navigate = useNavigate(); // Use navigate instead of history
 
+  // Define categories
+  const categories = [
+    'Food',
+    'Transport',
+    'Utilities',
+    'Entertainment',
+    'Healthcare',
+    'Groceries',
+    'Others',
+  ];
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const token = localStorage.getItem('userId'); // Assuming you're storing userId in localStorage
@@ -47,13 +58,19 @@ function AddExpense() {
           onChange={(e) => setAmount(e.target.value)}
           required
         /><br/>
-        <input
-          type="text"
-          placeholder="Category"
+
+        {/* Dropdown for category selection */}
+        <select
           value={category}
           onChange={(e) => setCategory(e.target.value)}
           required
-        /><br/>
+        >
+          <option value="" disabled>Select Category</option>
+          {categories.map((cat) => (
+            <option key={cat} value={cat}>{cat}</option>
+          ))}
+        </select><br/>
+
         <input
           type="file"
           accept="image/*" // Accept only image files
@@ -66,4 +83,3 @@ function AddExpense() {
 }
 
 export default AddExpense;
-

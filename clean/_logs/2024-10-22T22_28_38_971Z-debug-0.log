@@ -1,0 +1,92 @@
+0 verbose cli /opt/homebrew/Cellar/node/22.9.0_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.9.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/prajaktakumbhar/expense-tracker/.npmrc
+5 silly config load:file:/Users/prajaktakumbhar/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install chart.js@^4.4.5 react-chartjs-2@^5.2.0
+8 verbose argv "install" "chart.js@^4.4.5" "react-chartjs-2@^5.2.0"
+9 verbose logfile logs-max:10 dir:/Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T22_28_38_971Z-
+10 verbose logfile /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T22_28_38_971Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest chart.js@^4.4.5
+16 silly packumentCache full:https://registry.npmjs.org/chart.js cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/chart.js 313ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/chart.js set size:407622 disposed:false
+19 silly fetch manifest react-chartjs-2@^5.2.0
+20 silly packumentCache full:https://registry.npmjs.org/react-chartjs-2 cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react-chartjs-2 78ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/react-chartjs-2 set size:259213 disposed:false
+23 silly fetch manifest react@^18.3.1
+24 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react 48ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/react set size:5083608 disposed:false
+27 silly placeDep ROOT chart.js@4.4.5 REPLACE for: expensetracker@1.0.0 want: ^4.4.5
+28 silly placeDep ROOT react-chartjs-2@5.2.0 REPLACE for: expensetracker@1.0.0 want: ^5.2.0
+29 silly fetch manifest react@18.2.0
+30 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/react 9ms (cache hit)
+32 silly packumentCache full:https://registry.npmjs.org/react set size:5083608 disposed:false
+33 verbose stack Error: could not resolve
+33 verbose stack     at PlaceDep.failPeerConflict (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+33 verbose stack     at new PlaceDep (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+33 verbose stack     at #buildDepStep (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:917:18)
+33 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+33 verbose stack     at async Promise.all (index 1)
+33 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+33 verbose stack     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:150:5)
+33 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:207:9)
+33 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:74:5)
+34 error code ERESOLVE
+35 error ERESOLVE could not resolve
+36 error
+37 error While resolving: react-native@0.74.5
+37 error Found: react@18.3.1[2m[22m
+37 error [2mnode_modules/react[22m
+37 error   [95mpeer[39m react@"*" from @react-native/virtualized-lists@0.74.87[2m[22m
+37 error   [2mnode_modules/@react-native/virtualized-lists[22m
+37 error     @react-native/virtualized-lists@"0.74.87" from react-native@0.74.5
+37 error   [95mpeer[39m react@"^18.3.1" from react-dom@18.3.1[2m[22m
+37 error   [2mnode_modules/react-dom[22m
+37 error     react-dom@"^18.3.1" from the root project
+37 error   3 more (react-shallow-renderer, the root project, react-chartjs-2)
+37 error
+37 error Could not resolve dependency:
+37 error [95mpeer[39m react@"18.2.0" from react-native@0.74.5[2m[22m
+37 error [2mnode_modules/react-native[22m
+37 error   [95mpeer[39m react-native@"*" from @react-native/virtualized-lists@0.74.87[2m[22m
+37 error   [2mnode_modules/@react-native/virtualized-lists[22m
+37 error     @react-native/virtualized-lists@"0.74.87" from react-native@0.74.5
+37 error   react-native@"0.74.5" from the root project
+37 error
+37 error Conflicting peer dependency: react@18.2.0[2m[22m
+37 error [2mnode_modules/react[22m
+37 error   [95mpeer[39m react@"18.2.0" from react-native@0.74.5[2m[22m
+37 error   [2mnode_modules/react-native[22m
+37 error     [95mpeer[39m react-native@"*" from @react-native/virtualized-lists@0.74.87[2m[22m
+37 error     [2mnode_modules/@react-native/virtualized-lists[22m
+37 error       @react-native/virtualized-lists@"0.74.87" from react-native@0.74.5
+37 error     react-native@"0.74.5" from the root project
+37 error
+37 error Fix the upstream dependency conflict, or retry
+37 error this command with --force or --legacy-peer-deps
+37 error to accept an incorrect (and potentially broken) dependency resolution.
+38 error
+38 error
+38 error For a full report see:
+38 error /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T22_28_38_971Z-eresolve-report.txt
+39 silly unfinished npm timer reify 1729636119237
+40 silly unfinished npm timer reify:loadTrees 1729636119241
+41 silly unfinished npm timer idealTree:buildDeps 1729636119469
+42 silly unfinished npm timer idealTree:node_modules/react-native 1729636119936
+43 verbose cwd /Users/prajaktakumbhar/expense-tracker
+44 verbose os Darwin 23.6.0
+45 verbose node v22.9.0
+46 verbose npm  v10.8.3
+47 verbose exit 1
+48 verbose code 1
+49 error A complete log of this run can be found in: /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T22_28_38_971Z-debug-0.log

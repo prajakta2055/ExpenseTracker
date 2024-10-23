@@ -1,0 +1,20 @@
+0 verbose cli /opt/homebrew/Cellar/node/22.9.0_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.9.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/prajaktakumbhar/expense-tracker/.npmrc
+5 silly config load:file:/Users/prajaktakumbhar/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm list recharts
+8 verbose argv "list" "recharts"
+9 verbose logfile logs-max:10 dir:/Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T23_30_51_343Z-
+10 verbose logfile /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T23_30_51_343Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 verbose cwd /Users/prajaktakumbhar/expense-tracker
+15 verbose os Darwin 23.6.0
+16 verbose node v22.9.0
+17 verbose npm  v10.8.3
+18 verbose exit 0
+19 info ok

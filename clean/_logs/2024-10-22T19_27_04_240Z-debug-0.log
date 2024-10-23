@@ -1,0 +1,32 @@
+0 verbose cli /opt/homebrew/Cellar/node/22.9.0_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.9.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/prajaktakumbhar/expense-tracker/.npmrc
+5 silly config load:file:/Users/prajaktakumbhar/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm run clean
+8 verbose argv "run" "clean"
+9 verbose logfile logs-max:10 dir:/Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T19_27_04_240Z-
+10 verbose logfile /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T19_27_04_240Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack Error: Missing script: "clean"
+13 verbose stack
+13 verbose stack To see a list of scripts, run:
+13 verbose stack   npm run
+13 verbose stack     at #run (/opt/homebrew/lib/node_modules/npm/lib/commands/run-script.js:110:13)
+13 verbose stack     at async RunScript.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/run-script.js:39:7)
+13 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:207:9)
+13 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:74:5)
+14 error Missing script: "clean"
+14 error
+14 error To see a list of scripts, run:
+14 error   npm run
+15 verbose cwd /Users/prajaktakumbhar/expense-tracker
+16 verbose os Darwin 23.6.0
+17 verbose node v22.9.0
+18 verbose npm  v10.8.3
+19 verbose exit 1
+20 verbose code 1
+21 error A complete log of this run can be found in: /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T19_27_04_240Z-debug-0.log

@@ -1,0 +1,343 @@
+0 verbose cli /opt/homebrew/Cellar/node/22.9.0_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.9.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/prajaktakumbhar/expense-tracker/.npmrc
+5 silly config load:file:/Users/prajaktakumbhar/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install recharts
+8 verbose argv "install" "recharts"
+9 verbose logfile logs-max:10 dir:/Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T22_30_44_460Z-
+10 verbose logfile /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T22_30_44_460Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest recharts@*
+16 silly packumentCache full:https://registry.npmjs.org/recharts cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/recharts 284ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/recharts set size:undefined disposed:false
+19 silly fetch manifest react@^18.3.1
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react 11ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:5083608 disposed:false
+23 silly fetch manifest react-dom@^18.3.1
+24 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react-dom 46ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/react-dom set size:6191007 disposed:false
+27 silly placeDep ROOT recharts@2.13.0 OK for: expensetracker@1.0.0 want: *
+28 silly fetch manifest clsx@^2.0.0
+29 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+30 silly fetch manifest eventemitter3@^4.0.1
+31 silly packumentCache full:https://registry.npmjs.org/eventemitter3 cache-miss
+32 silly fetch manifest react-is@^18.3.1
+33 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+34 silly fetch manifest react-smooth@^4.0.0
+35 silly packumentCache full:https://registry.npmjs.org/react-smooth cache-miss
+36 silly fetch manifest recharts-scale@^0.4.4
+37 silly packumentCache full:https://registry.npmjs.org/recharts-scale cache-miss
+38 silly fetch manifest tiny-invariant@^1.3.1
+39 silly packumentCache full:https://registry.npmjs.org/tiny-invariant cache-miss
+40 silly fetch manifest victory-vendor@^36.6.8
+41 silly packumentCache full:https://registry.npmjs.org/victory-vendor cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/clsx 77ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/clsx set size:undefined disposed:false
+44 http fetch GET 200 https://registry.npmjs.org/eventemitter3 135ms (cache revalidated)
+45 silly packumentCache full:https://registry.npmjs.org/eventemitter3 set size:86060 disposed:false
+46 http fetch GET 200 https://registry.npmjs.org/react-is 146ms (cache revalidated)
+47 silly packumentCache full:https://registry.npmjs.org/react-is set size:4153102 disposed:false
+48 http fetch GET 200 https://registry.npmjs.org/react-smooth 164ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/react-smooth set size:undefined disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/victory-vendor 168ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/victory-vendor set size:undefined disposed:false
+52 http fetch GET 200 https://registry.npmjs.org/tiny-invariant 187ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/tiny-invariant set size:undefined disposed:false
+54 http fetch GET 200 https://registry.npmjs.org/recharts-scale 193ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/recharts-scale set size:undefined disposed:false
+56 silly fetch manifest @babel/preset-env@^7.1.6
+57 silly packumentCache full:https://registry.npmjs.org/@babel%2fpreset-env cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/@babel%2fpreset-env 113ms (cache revalidated)
+59 silly packumentCache full:https://registry.npmjs.org/@babel%2fpreset-env set size:1014239 disposed:false
+60 silly fetch manifest @babel/core@^7.0.0-0
+61 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 121ms (cache revalidated)
+63 silly packumentCache full:https://registry.npmjs.org/@babel%2fcore set size:666280 disposed:false
+64 silly placeDep ROOT @babel/preset-env@7.25.9 OK for: @react-native/codegen@0.74.87 want: ^7.1.6
+65 silly fetch manifest @babel/plugin-bugfix-firefox-class-in-computed-class-key@^7.25.9
+66 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-firefox-class-in-computed-class-key cache-miss
+67 silly fetch manifest @babel/plugin-bugfix-safari-class-field-initializer-scope@^7.25.9
+68 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-class-field-initializer-scope cache-miss
+69 silly fetch manifest @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@^7.25.9
+70 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-id-destructuring-collision-in-function-expression cache-miss
+71 silly fetch manifest @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.25.9
+72 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-spread-parameters-in-optional-chaining cache-miss
+73 silly fetch manifest @babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@^7.25.9
+74 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-static-class-fields-redefine-readonly cache-miss
+75 silly fetch manifest @babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2
+76 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-proposal-private-property-in-object cache-miss
+77 silly fetch manifest @babel/plugin-syntax-import-assertions@^7.25.9
+78 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-import-assertions cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-id-destructuring-collision-in-function-expression 133ms (cache revalidated)
+80 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-id-destructuring-collision-in-function-expression set size:85059 disposed:false
+81 silly fetch manifest @babel/plugin-syntax-import-attributes@^7.25.9
+82 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-import-attributes cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-syntax-import-assertions 135ms (cache revalidated)
+84 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-import-assertions set size:76353 disposed:false
+85 silly fetch manifest @babel/plugin-syntax-unicode-sets-regex@^7.18.6
+86 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-unicode-sets-regex cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-spread-parameters-in-optional-chaining 137ms (cache revalidated)
+88 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-spread-parameters-in-optional-chaining set size:99927 disposed:false
+89 silly fetch manifest @babel/plugin-transform-async-generator-functions@^7.25.9
+90 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-async-generator-functions cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-static-class-fields-redefine-readonly 144ms (cache revalidated)
+92 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-v8-static-class-fields-redefine-readonly set size:37109 disposed:false
+93 silly fetch manifest @babel/plugin-transform-block-scoped-functions@^7.25.9
+94 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-block-scoped-functions cache-miss
+95 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-bugfix-firefox-class-in-computed-class-key 145ms (cache revalidated)
+96 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-firefox-class-in-computed-class-key set size:30103 disposed:false
+97 silly fetch manifest @babel/plugin-transform-class-properties@^7.25.9
+98 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-class-properties cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-class-field-initializer-scope 161ms (cache revalidated)
+100 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-bugfix-safari-class-field-initializer-scope set size:9703 disposed:false
+101 silly fetch manifest @babel/plugin-transform-class-static-block@^7.25.9
+102 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-class-static-block cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-proposal-private-property-in-object 164ms (cache revalidated)
+104 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-proposal-private-property-in-object set size:80252 disposed:false
+105 silly fetch manifest @babel/plugin-transform-dotall-regex@^7.25.9
+106 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-dotall-regex cache-miss
+107 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-syntax-import-attributes 130ms (cache revalidated)
+108 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-import-attributes set size:43495 disposed:false
+109 silly fetch manifest @babel/plugin-transform-duplicate-keys@^7.25.9
+110 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-keys cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-block-scoped-functions 123ms (cache revalidated)
+112 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-block-scoped-functions set size:168016 disposed:false
+113 silly fetch manifest @babel/plugin-transform-duplicate-named-capturing-groups-regex@^7.25.9
+114 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-named-capturing-groups-regex cache-miss
+115 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-syntax-unicode-sets-regex 132ms (cache revalidated)
+116 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-syntax-unicode-sets-regex set size:22903 disposed:false
+117 silly fetch manifest @babel/plugin-transform-dynamic-import@^7.25.9
+118 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-dynamic-import cache-miss
+119 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-class-properties 134ms (cache revalidated)
+120 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-class-properties set size:48535 disposed:false
+121 silly fetch manifest @babel/plugin-transform-exponentiation-operator@^7.25.9
+122 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-exponentiation-operator cache-miss
+123 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-async-generator-functions 140ms (cache revalidated)
+124 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-async-generator-functions set size:74954 disposed:false
+125 silly fetch manifest @babel/plugin-transform-for-of@^7.25.9
+126 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-for-of cache-miss
+127 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-dotall-regex 147ms (cache revalidated)
+128 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-dotall-regex set size:180158 disposed:false
+129 silly fetch manifest @babel/plugin-transform-json-strings@^7.25.9
+130 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-json-strings cache-miss
+131 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-class-static-block 154ms (cache revalidated)
+132 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-class-static-block set size:56335 disposed:false
+133 silly fetch manifest @babel/plugin-transform-logical-assignment-operators@^7.25.9
+134 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-logical-assignment-operators cache-miss
+135 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-dynamic-import 122ms (cache revalidated)
+136 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-dynamic-import set size:46889 disposed:false
+137 silly fetch manifest @babel/plugin-transform-member-expression-literals@^7.25.9
+138 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-member-expression-literals cache-miss
+139 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-exponentiation-operator 114ms (cache revalidated)
+140 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-exponentiation-operator set size:174656 disposed:false
+141 silly fetch manifest @babel/plugin-transform-modules-amd@^7.25.9
+142 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-amd cache-miss
+143 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-for-of 115ms (cache revalidated)
+144 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-for-of set size:202440 disposed:false
+145 silly fetch manifest @babel/plugin-transform-modules-systemjs@^7.25.9
+146 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-systemjs cache-miss
+147 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-keys 132ms (cache revalidated)
+148 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-keys set size:170931 disposed:false
+149 silly fetch manifest @babel/plugin-transform-modules-umd@^7.25.9
+150 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-umd cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-named-capturing-groups-regex 149ms (cache revalidated)
+152 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-duplicate-named-capturing-groups-regex set size:10427 disposed:false
+153 silly fetch manifest @babel/plugin-transform-new-target@^7.25.9
+154 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-new-target cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-logical-assignment-operators 116ms (cache revalidated)
+156 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-logical-assignment-operators set size:54796 disposed:false
+157 silly fetch manifest @babel/plugin-transform-nullish-coalescing-operator@^7.25.9
+158 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-nullish-coalescing-operator cache-miss
+159 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-json-strings 188ms (cache revalidated)
+160 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-json-strings set size:49753 disposed:false
+161 silly fetch manifest @babel/plugin-transform-numeric-separator@^7.25.9
+162 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-numeric-separator cache-miss
+163 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-modules-systemjs 120ms (cache revalidated)
+164 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-systemjs set size:258580 disposed:false
+165 silly fetch manifest @babel/plugin-transform-object-super@^7.25.9
+166 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-object-super cache-miss
+167 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-modules-umd 123ms (cache revalidated)
+168 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-umd set size:185937 disposed:false
+169 silly fetch manifest @babel/plugin-transform-optional-catch-binding@^7.25.9
+170 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-optional-catch-binding cache-miss
+171 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-member-expression-literals 133ms (cache revalidated)
+172 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-member-expression-literals set size:168271 disposed:false
+173 silly fetch manifest @babel/plugin-transform-optional-chaining@^7.25.9
+174 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-optional-chaining cache-miss
+175 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-modules-amd 142ms (cache revalidated)
+176 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-modules-amd set size:208625 disposed:false
+177 silly fetch manifest @babel/plugin-transform-property-literals@^7.25.9
+178 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-property-literals cache-miss
+179 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-new-target 147ms (cache revalidated)
+180 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-new-target set size:180659 disposed:false
+181 silly fetch manifest @babel/plugin-transform-regenerator@^7.25.9
+182 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-regenerator cache-miss
+183 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-object-super 116ms (cache revalidated)
+184 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-object-super set size:169875 disposed:false
+185 silly fetch manifest @babel/plugin-transform-reserved-words@^7.25.9
+186 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-reserved-words cache-miss
+187 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-numeric-separator 131ms (cache revalidated)
+188 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-numeric-separator set size:52163 disposed:false
+189 silly fetch manifest @babel/plugin-transform-template-literals@^7.25.9
+190 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-template-literals cache-miss
+191 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-optional-catch-binding 113ms (cache revalidated)
+192 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-optional-catch-binding set size:50580 disposed:false
+193 silly fetch manifest @babel/plugin-transform-typeof-symbol@^7.25.9
+194 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-typeof-symbol cache-miss
+195 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-optional-chaining 115ms (cache revalidated)
+196 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-optional-chaining set size:68789 disposed:false
+197 silly fetch manifest @babel/plugin-transform-unicode-escapes@^7.25.9
+198 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-escapes cache-miss
+199 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-nullish-coalescing-operator 179ms (cache revalidated)
+200 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-nullish-coalescing-operator set size:51608 disposed:false
+201 silly fetch manifest @babel/plugin-transform-unicode-property-regex@^7.25.9
+202 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-property-regex cache-miss
+203 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-property-literals 117ms (cache revalidated)
+204 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-property-literals set size:164294 disposed:false
+205 silly fetch manifest @babel/plugin-transform-unicode-sets-regex@^7.25.9
+206 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-sets-regex cache-miss
+207 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-regenerator 120ms (cache revalidated)
+208 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-regenerator set size:209798 disposed:false
+209 silly fetch manifest @babel/preset-modules@0.1.6-no-external-plugins
+210 silly packumentCache full:https://registry.npmjs.org/@babel%2fpreset-modules cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-escapes 111ms (cache revalidated)
+212 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-escapes set size:88400 disposed:false
+213 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-typeof-symbol 120ms (cache revalidated)
+214 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-typeof-symbol set size:187203 disposed:false
+215 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-template-literals 141ms (cache revalidated)
+216 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-template-literals set size:185665 disposed:false
+217 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-sets-regex 123ms (cache revalidated)
+218 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-sets-regex set size:51693 disposed:false
+219 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-reserved-words 146ms (cache revalidated)
+220 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-reserved-words set size:164050 disposed:false
+221 http fetch GET 200 https://registry.npmjs.org/@babel%2fplugin-transform-unicode-property-regex 138ms (cache revalidated)
+222 silly packumentCache full:https://registry.npmjs.org/@babel%2fplugin-transform-unicode-property-regex set size:49233 disposed:false
+223 http fetch GET 200 https://registry.npmjs.org/@babel%2fpreset-modules 119ms (cache revalidated)
+224 silly packumentCache full:https://registry.npmjs.org/@babel%2fpreset-modules set size:44615 disposed:false
+225 silly placeDep ROOT @babel/plugin-bugfix-firefox-class-in-computed-class-key@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+226 silly placeDep ROOT @babel/plugin-bugfix-safari-class-field-initializer-scope@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+227 silly placeDep ROOT @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+228 silly placeDep ROOT @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+229 silly placeDep ROOT @babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+230 silly placeDep ROOT @babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2 OK for: @babel/preset-env@7.25.9 want: 7.21.0-placeholder-for-preset-env.2
+231 silly placeDep ROOT @babel/plugin-syntax-import-assertions@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+232 silly placeDep ROOT @babel/plugin-syntax-import-attributes@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+233 silly placeDep ROOT @babel/plugin-syntax-unicode-sets-regex@7.18.6 OK for: @babel/preset-env@7.25.9 want: ^7.18.6
+234 silly placeDep ROOT @babel/plugin-transform-async-generator-functions@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+235 silly placeDep ROOT @babel/plugin-transform-block-scoped-functions@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+236 silly placeDep ROOT @babel/plugin-transform-class-properties@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+237 silly placeDep ROOT @babel/plugin-transform-class-static-block@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+238 silly placeDep ROOT @babel/plugin-transform-dotall-regex@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+239 silly placeDep ROOT @babel/plugin-transform-duplicate-keys@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+240 silly placeDep ROOT @babel/plugin-transform-duplicate-named-capturing-groups-regex@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+241 silly placeDep ROOT @babel/plugin-transform-dynamic-import@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+242 silly placeDep ROOT @babel/plugin-transform-exponentiation-operator@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+243 silly placeDep ROOT @babel/plugin-transform-for-of@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+244 silly placeDep ROOT @babel/plugin-transform-json-strings@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+245 silly placeDep ROOT @babel/plugin-transform-logical-assignment-operators@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+246 silly placeDep ROOT @babel/plugin-transform-member-expression-literals@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+247 silly placeDep ROOT @babel/plugin-transform-modules-amd@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+248 silly placeDep ROOT @babel/plugin-transform-modules-systemjs@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+249 silly placeDep ROOT @babel/plugin-transform-modules-umd@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+250 silly placeDep ROOT @babel/plugin-transform-new-target@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+251 silly placeDep ROOT @babel/plugin-transform-nullish-coalescing-operator@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+252 silly placeDep ROOT @babel/plugin-transform-numeric-separator@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+253 silly placeDep ROOT @babel/plugin-transform-object-super@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+254 silly placeDep ROOT @babel/plugin-transform-optional-catch-binding@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+255 silly placeDep ROOT @babel/plugin-transform-optional-chaining@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+256 silly placeDep ROOT @babel/plugin-transform-property-literals@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+257 silly placeDep ROOT @babel/plugin-transform-regenerator@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+258 silly placeDep ROOT @babel/plugin-transform-reserved-words@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+259 silly placeDep ROOT @babel/plugin-transform-template-literals@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+260 silly placeDep ROOT @babel/plugin-transform-typeof-symbol@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+261 silly placeDep ROOT @babel/plugin-transform-unicode-escapes@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+262 silly placeDep ROOT @babel/plugin-transform-unicode-property-regex@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+263 silly placeDep ROOT @babel/plugin-transform-unicode-sets-regex@7.25.9 OK for: @babel/preset-env@7.25.9 want: ^7.25.9
+264 silly placeDep ROOT @babel/preset-modules@0.1.6-no-external-plugins OK for: @babel/preset-env@7.25.9 want: 0.1.6-no-external-plugins
+265 silly fetch manifest @babel/helper-builder-binary-assignment-operator-visitor@^7.25.9
+266 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-builder-binary-assignment-operator-visitor cache-miss
+267 silly fetch manifest regenerator-transform@^0.15.2
+268 silly packumentCache full:https://registry.npmjs.org/regenerator-transform cache-miss
+269 silly fetch manifest esutils@^2.0.2
+270 silly packumentCache full:https://registry.npmjs.org/esutils cache-miss
+271 http fetch GET 200 https://registry.npmjs.org/esutils 91ms (cache revalidated)
+272 silly packumentCache full:https://registry.npmjs.org/esutils set size:29522 disposed:false
+273 http fetch GET 200 https://registry.npmjs.org/regenerator-transform 102ms (cache revalidated)
+274 silly packumentCache full:https://registry.npmjs.org/regenerator-transform set size:74678 disposed:false
+275 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-builder-binary-assignment-operator-visitor 115ms (cache revalidated)
+276 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-builder-binary-assignment-operator-visitor set size:177295 disposed:false
+277 silly placeDep ROOT @babel/helper-builder-binary-assignment-operator-visitor@7.25.9 OK for: @babel/plugin-transform-exponentiation-operator@7.25.9 want: ^7.25.9
+278 silly placeDep ROOT regenerator-transform@0.15.2 OK for: @babel/plugin-transform-regenerator@7.25.9 want: ^0.15.2
+279 silly placeDep ROOT esutils@2.0.3 OK for: @babel/preset-modules@0.1.6-no-external-plugins want: ^2.0.2
+280 silly fetch manifest react@18.2.0
+281 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+282 http fetch GET 200 https://registry.npmjs.org/react 7ms (cache hit)
+283 silly packumentCache full:https://registry.npmjs.org/react set size:5083608 disposed:false
+284 verbose stack Error: could not resolve
+284 verbose stack     at PlaceDep.failPeerConflict (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+284 verbose stack     at new PlaceDep (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+284 verbose stack     at #buildDepStep (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:917:18)
+284 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+284 verbose stack     at async Promise.all (index 1)
+284 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+284 verbose stack     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:150:5)
+284 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:207:9)
+284 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:74:5)
+285 error code ERESOLVE
+286 error ERESOLVE could not resolve
+287 error
+288 error While resolving: react-native@0.74.5
+288 error Found: react@18.3.1[2m[22m
+288 error [2mnode_modules/react[22m
+288 error   [95mpeer[39m react@"*" from @react-native/virtualized-lists@0.74.87[2m[22m
+288 error   [2mnode_modules/@react-native/virtualized-lists[22m
+288 error     @react-native/virtualized-lists@"0.74.87" from react-native@0.74.5
+288 error   [95mpeer[39m react@"^16.8.0 || ^17.0.0 || ^18.0.0" from react-chartjs-2@5.2.0[2m[22m
+288 error   [2mnode_modules/react-chartjs-2[22m
+288 error     react-chartjs-2@"^5.2.0" from the root project
+288 error   4 more (react-dom, react-shallow-renderer, the root project, recharts)
+288 error
+288 error Could not resolve dependency:
+288 error [95mpeer[39m react@"18.2.0" from react-native@0.74.5[2m[22m
+288 error [2mnode_modules/react-native[22m
+288 error   [95mpeer[39m react-native@"*" from @react-native/virtualized-lists@0.74.87[2m[22m
+288 error   [2mnode_modules/@react-native/virtualized-lists[22m
+288 error     @react-native/virtualized-lists@"0.74.87" from react-native@0.74.5
+288 error   react-native@"0.74.5" from the root project
+288 error
+288 error Conflicting peer dependency: react@18.2.0[2m[22m
+288 error [2mnode_modules/react[22m
+288 error   [95mpeer[39m react@"18.2.0" from react-native@0.74.5[2m[22m
+288 error   [2mnode_modules/react-native[22m
+288 error     [95mpeer[39m react-native@"*" from @react-native/virtualized-lists@0.74.87[2m[22m
+288 error     [2mnode_modules/@react-native/virtualized-lists[22m
+288 error       @react-native/virtualized-lists@"0.74.87" from react-native@0.74.5
+288 error     react-native@"0.74.5" from the root project
+288 error
+288 error Fix the upstream dependency conflict, or retry
+288 error this command with --force or --legacy-peer-deps
+288 error to accept an incorrect (and potentially broken) dependency resolution.
+289 error
+289 error
+289 error For a full report see:
+289 error /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T22_30_44_460Z-eresolve-report.txt
+290 silly unfinished npm timer reify 1729636244686
+291 silly unfinished npm timer reify:loadTrees 1729636244689
+292 silly unfinished npm timer idealTree:buildDeps 1729636244894
+293 silly unfinished npm timer idealTree:node_modules/react-native 1729636246713
+294 verbose cwd /Users/prajaktakumbhar/expense-tracker
+295 verbose os Darwin 23.6.0
+296 verbose node v22.9.0
+297 verbose npm  v10.8.3
+298 verbose exit 1
+299 verbose code 1
+300 error A complete log of this run can be found in: /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T22_30_44_460Z-debug-0.log

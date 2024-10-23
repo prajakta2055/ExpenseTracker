@@ -1,0 +1,38 @@
+0 verbose cli /opt/homebrew/Cellar/node/22.9.0_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.9.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/prajaktakumbhar/expense-tracker/.npmrc
+5 silly config load:file:/Users/prajaktakumbhar/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm i react-chartjs-2
+8 verbose argv "i" "react-chartjs-2"
+9 verbose logfile logs-max:10 dir:/Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T19_23_15_067Z-
+10 verbose logfile /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T19_23_15_067Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 verbose stack JSONParseError: Expected ',' or '}' after property value in JSON at position 116 (line 7 column 3) while parsing near "...-2\": \"^5.2.0\"\n  }\n  \"name\": \"expensetrac..."
+14 verbose stack     at /opt/homebrew/lib/node_modules/npm/node_modules/read-package-json-fast/lib/index.js:7:61
+14 verbose stack     at async #initTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:265:21)
+14 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:178:7)
+14 verbose stack     at async Promise.all (index 1)
+14 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+14 verbose stack     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:150:5)
+14 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:207:9)
+14 verbose stack     at async module.exports (/opt/homebrew/lib/node_modules/npm/lib/cli/entry.js:74:5)
+15 error code EJSONPARSE
+16 error path /Users/prajaktakumbhar/expense-tracker/package.json
+17 error JSON.parse Expected ',' or '}' after property value in JSON at position 116 (line 7 column 3) while parsing near "...-2\": \"^5.2.0\"\n  }\n  \"name\": \"expensetrac..."
+18 error JSON.parse Failed to parse JSON data.
+18 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+19 silly unfinished npm timer reify 1729624995189
+20 silly unfinished npm timer reify:loadTrees 1729624995191
+21 silly unfinished npm timer idealTree:init 1729624995191
+22 verbose cwd /Users/prajaktakumbhar/expense-tracker
+23 verbose os Darwin 23.6.0
+24 verbose node v22.9.0
+25 verbose npm  v10.8.3
+26 verbose exit 1
+27 verbose code 1
+28 error A complete log of this run can be found in: /Users/prajaktakumbhar/expense-tracker/clean/_logs/2024-10-22T19_23_15_067Z-debug-0.log
